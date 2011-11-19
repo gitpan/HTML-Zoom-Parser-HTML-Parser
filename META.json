@@ -55,7 +55,7 @@
    "provides" : {
       "HTML::Zoom::Parser::HTML::Parser" : {
          "file" : "lib/HTML/Zoom/Parser/HTML/Parser.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -70,6 +70,6 @@
          "web" : "https://github.com/mphill22/HTML-Zoom-Parser-HTML-Parser"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
 

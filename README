@@ -1,9 +1,9 @@
 NAME
-    HTML::Zoom::Parser::HTML::Parser - Glue to power HTML::Zoom with HTML
-    Parser
+    HTML::Zoom::Parser::HTML::Parser - Glue to power HTML::Zoom with
+    HTML::Parser
 
 VERSION
-    version 0.01
+    version 0.02
 
 SYNOPSIS
         my $zoom = HTML::Zoom->new( { zconfig => { parser => 'HTML::Zoom::Parser::HTML::Parser' } } );
@@ -19,6 +19,9 @@ DESCRIPTION
     Using this Parser over BuiltIn should require no different usage with
     HTML::Zoom.
 
+SEE ALSO
+HTML::Zoom
+HTML::Parser
 AUTHOR
     Matthew Phillips <mattp@cpan.org>
 

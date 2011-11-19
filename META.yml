@@ -31,7 +31,7 @@ no_index:
 provides:
   HTML::Zoom::Parser::HTML::Parser:
     file: lib/HTML/Zoom/Parser/HTML/Parser.pm
-    version: 0.01
+    version: 0.02
 requires:
   HTML::Entities: 0
   HTML::TokeParser: 0
@@ -43,4 +43,4 @@ resources:
   bugtracker: http://github.com/me/HTML-Zoom-Parser-HTML-Parser/issues
   homepage: https://github.com/mphill22/HTML-Zoom-Parser-HTML-Parser
   repository: https://github.com/mphill22/HTML-Zoom-Parser-HTML-Parser.git
-version: 0.01
+version: 0.02
