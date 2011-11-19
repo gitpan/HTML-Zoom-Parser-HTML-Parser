@@ -1,0 +1,46 @@
+---
+abstract: 'Glue to power HTML::Zoom with HTML Parser'
+author:
+  - 'Matthew Phillips <mattp@cpan.org>'
+build_requires:
+  File::Find: 0
+  File::Temp: 0
+  HTML::Zoom: 0
+  HTML::Zoom::CodeStream: 0
+  HTML::Zoom::FilterBuilder: 0
+  HTML::Zoom::FilterStream: 0
+  HTML::Zoom::Producer::BuiltIn: 0
+  HTML::Zoom::SelectorParser: 0
+  Test::More: 0
+  strict: 0
+  warnings: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300003, CPAN::Meta::Converter version 2.110930'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: HTML-Zoom-Parser-HTML-Parser
+no_index:
+  directory:
+    - t
+    - xt
+    - examples
+provides:
+  HTML::Zoom::Parser::HTML::Parser:
+    file: lib/HTML/Zoom/Parser/HTML/Parser.pm
+    version: 0.01
+requires:
+  HTML::Entities: 0
+  HTML::TokeParser: 0
+  HTML::Zoom::SubObject: 0
+  base: 0
+  perl: 5.006
+  strictures: 1
+resources:
+  bugtracker: http://github.com/me/HTML-Zoom-Parser-HTML-Parser/issues
+  homepage: https://github.com/mphill22/HTML-Zoom-Parser-HTML-Parser
+  repository: https://github.com/mphill22/HTML-Zoom-Parser-HTML-Parser.git
+version: 0.01
