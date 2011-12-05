@@ -1,33 +1,13 @@
-NAME
-    HTML::Zoom::Parser::HTML::Parser - Glue to power HTML::Zoom with
-    HTML::Parser
 
-VERSION
-    version 0.02
 
-SYNOPSIS
-        my $zoom = HTML::Zoom->new( { zconfig => { parser => 'HTML::Zoom::Parser::HTML::Parser' } } );
+This archive contains the distribution HTML-Zoom-Parser-HTML-Parser,
+version 1.113390:
 
-        $zoom->from_html($template); # etc ...
+  Glue to power HTML::Zoom with HTML Parser
 
-DESCRIPTION
-    This module provides a bridge to HMTL::Parser to be used with
-    HTML::Zoom. You may want to use this over Parser::BuiltIn for improved
-    handling of malformed html. There could potentially be a performance
-    boost from HTML::Parser's XS bits, though I've not benchmarked.
+This software is copyright (c) 2011 by Matthew Phillips.
 
-    Using this Parser over BuiltIn should require no different usage with
-    HTML::Zoom.
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
-SEE ALSO
-HTML::Zoom
-HTML::Parser
-AUTHOR
-    Matthew Phillips <mattp@cpan.org>
-
-COPYRIGHT AND LICENSE
-    This software is copyright (c) 2011 by Matt Phillips.
-
-    This is free software; you can redistribute it and/or modify it under
-    the same terms as the Perl 5 programming language system itself.
 

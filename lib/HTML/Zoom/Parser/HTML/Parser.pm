@@ -1,6 +1,14 @@
+#
+# This file is part of HTML-Zoom-Parser-HTML-Parser
+#
+# This software is copyright (c) 2011 by Matthew Phillips.
+#
+# This is free software; you can redistribute it and/or modify it under
+# the same terms as the Perl 5 programming language system itself.
+#
 package HTML::Zoom::Parser::HTML::Parser;
 {
-  $HTML::Zoom::Parser::HTML::Parser::VERSION = '0.02';
+  $HTML::Zoom::Parser::HTML::Parser::VERSION = '1.113390';
 }
 # ABSTRACT: Glue to power HTML::Zoom with HTML::Parser
 
@@ -126,11 +134,15 @@ HTML::Zoom::Parser::HTML::Parser - Glue to power HTML::Zoom with HTML::Parser
 
 =head1 VERSION
 
-version 0.02
+version 1.113390
 
 =head1 SYNOPSIS
 
-    my $zoom = HTML::Zoom->new( { zconfig => { parser => 'HTML::Zoom::Parser::HTML::Parser' } } );
+    my $zoom = HTML::Zoom->new( {
+        zconfig => {
+            parser => 'HTML::Zoom::Parser::HTML::Parser'
+        }
+    } );
 
     $zoom->from_html($template); # etc ...
 
@@ -141,8 +153,18 @@ This module provides a bridge to HMTL::Parser to be used with HTML::Zoom. You ma
 Using this Parser over BuiltIn should require no different usage with HTML::Zoom.
 
 =head1 SEE ALSO
-HTML::Zoom
-HTML::Parser
+
+=over 4
+
+=item *
+
+L<HTML::Zoom>
+
+=item *
+
+L<HTML::Parser>
+
+=back
 
 =head1 AUTHOR
 
@@ -150,7 +172,7 @@ Matthew Phillips <mattp@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Matt Phillips.
+This software is copyright (c) 2011 by Matthew Phillips.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

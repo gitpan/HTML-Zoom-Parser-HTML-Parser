@@ -1,4 +1,12 @@
 #!perl
+#
+# This file is part of HTML-Zoom-Parser-HTML-Parser
+#
+# This software is copyright (c) 2011 by Matthew Phillips.
+#
+# This is free software; you can redistribute it and/or modify it under
+# the same terms as the Perl 5 programming language system itself.
+#
 
 use strict;
 use warnings;
@@ -56,7 +64,7 @@ $plan ? (plan tests => $plan) : (plan skip_all => "no tests to run");
 
 {
     # fake home for cpan-testers
-     local $ENV{HOME} = tempdir( CLEANUP => 1 );
+    # no fake requested ## local $ENV{HOME} = tempdir( CLEANUP => 1 );
 
     like( qx{ $^X -Ilib -e "require $_; print '$_ ok'" }, qr/^\s*$_ ok/s, "$_ loaded ok" )
         for sort @modules;
