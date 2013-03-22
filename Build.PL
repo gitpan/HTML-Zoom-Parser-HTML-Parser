@@ -23,12 +23,12 @@ my %module_build_args = (
   "configure_requires" => {
     "Module::Build" => "0.3601"
   },
-  "dist_abstract" => "Glue to power HTML::Zoom with HTML Parser",
+  "dist_abstract" => "Glue to power HTML::Zoom with HTML::Parser",
   "dist_author" => [
     "Matthew Phillips <mattp\@cpan.org>"
   ],
   "dist_name" => "HTML-Zoom-Parser-HTML-Parser",
-  "dist_version" => "1.113390",
+  "dist_version" => "1.130810",
   "license" => "perl",
   "module_name" => "HTML::Zoom::Parser::HTML::Parser",
   "recommends" => {},

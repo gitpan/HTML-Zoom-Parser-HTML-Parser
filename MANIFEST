@@ -5,6 +5,7 @@ MANIFEST
 META.json
 META.yml
 README
+README.mkdn
 dist.ini
 lib/HTML/Zoom/Parser/HTML/Parser.pm
 t/00-compile.t
@@ -18,9 +19,9 @@ t/dwim-autoload.t
 t/flush.t
 t/forms.t
 t/parser_weirdness.t
+t/plain_text.t
 t/release-has-version.t
 t/release-minimum-version.t
-t/release-pod-coverage.t
 t/release-pod-syntax.t
 t/release-portability.t
 t/repeat_bugfixes.t
